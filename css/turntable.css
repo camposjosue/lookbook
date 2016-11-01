@@ -1,0 +1,20 @@
+.turntable {
+  margin: 0 auto; 
+}
+.turntable ul {
+  padding-bottom: 10px;
+  margin: 0px; 
+}
+.turntable ul li {
+  list-style-type: none;
+  display: none; 
+}
+.turntable ul li img {
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.turntable ul li.active {
+  display: block; 
+}

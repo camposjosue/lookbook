@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>Lookbook | Outfit 4</title>
+    <link rel="icon" href="images/icon.png">
+     <!-- Custom CSS -->
+    <link href="css/formatting.css" rel="stylesheet">
+    <!-- Add FancyBox & Turntable CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+    <link href="css/turntable.css" rel="stylesheet">
+    <style>
+        body {
+            background-color:#5BC0EB;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav "class="navbar navbar-inverse navbar-fixed-left">
+        <a href="lookbook.html" class="imglink"><img src="images/nature.png"></a><br/>
+        <a href="one.html" class="bl">1</a>
+        <a href="two.html" class="bl" >2</a>
+        <a href="three.html" class="bl">3</a>
+        <a href="four.html" style="color:#808080">4</a>
+        <a href="five.html" class="bl">5</a>
+        <a href="six.html" class="bl">6</a>
+        <a href="seven.html" class="bl">7</a>
+    </div>
+    <div id="container">
+ 
+    </div>
+   <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Add FancyBox & Turntable JS Files -->
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/turntable.min.js"></script>
+    <!-- Add Custom JS Files -->
+    <script src="js/pluginExtensions.js"></script>
+    <script>
+        var galleryObjectArray = [];
+        galleryObjectArray.push(createGalleryObject("images/4/popsicle/13.jpg", 14, "Popscile Time"));
+        galleryObjectArray.push(createGalleryObject("images/4/cartwheel/9.jpg", 12, "Cartwheels"));
+        galleryObjectArray.push(createGalleryObject("images/4/spin/13.jpg", 17, "Spins Spins Spins")); 
+        galleryObjectArray.push(createGalleryObject("images/4/gazebo/11.jpg", 13, "Gazebo")); 
+        galleryObjectArray.push(createGalleryObject("images/4/leap/6.jpg", 11, "Leaping")); 
+        galleryObjectArray.push(createGalleryObject("images/4/whiteConverse/11.jpg", 11, "White Converse")); 
+
+        loadFancyBoxAndTurntable(galleryObjectArray);
+    </script>
+</body>
+</html>

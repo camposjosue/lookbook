@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>Lookbook | Outfit 7</title>
+    <link rel="icon" href="images/icon.png">
+     <!-- Custom CSS -->
+    <link href="css/formatting.css" rel="stylesheet">
+    <!-- Add FancyBox & Turntable CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+    <link href="css/turntable.css" rel="stylesheet">
+    <style>
+        body {
+            background-color:pink;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav "class="navbar navbar-inverse navbar-fixed-left">
+        <a href="lookbook.html" class="imglink"><img src="images/nature.png"></a><br/>
+        <a href="one.html" class="bl">1</a>
+        <a href="two.html" class="bl" >2</a>
+        <a href="three.html" class="bl">3</a>
+        <a href="four.html" class="bl">4</a>
+        <a href="five.html" class="bl">5</a>
+        <a href="six.html" class="bl">6</a>
+        <a href="seven.html" style="color:#808080">7</a>
+    </div>
+    <div id="container">
+ 
+    </div>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Add FancyBox & Turntable JS Files -->
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/turntable.min.js"></script>
+    <!-- Add Custom JS Files -->
+    <script src="js/pluginExtensions.js"></script>
+    <script>
+        var galleryObjectArray = [];
+        galleryObjectArray.push(createGalleryObject("images/7/grassSpin/13.jpg", 13, "Spinz")); 
+        galleryObjectArray.push(createGalleryObject("images/7/treeJump/1.jpg", 16, "Jumpin jumpin")); 
+        galleryObjectArray.push(createGalleryObject("images/7/treeTurn/1.jpg", 11, "Hi\nTurn")); 
+        galleryObjectArray.push(createGalleryObject("images/7/jacket/10.jpg", 17, "Denim")); 
+        loadFancyBoxAndTurntable(galleryObjectArray);
+    </script>
+
+</body>
+</html>

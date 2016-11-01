@@ -1,0 +1,135 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>Lookbook | Home</title>
+    <link rel="icon" href="images/icon.png">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            color: black;
+        }
+        body, html{
+            height: 100%;
+        }
+        #outercontainer{
+            position:absolute;       
+            width: 200%;
+            height: 100%;
+            overflow: scroll;
+            direction:rtl;
+            
+        }
+        .column{
+            font-size:100pt;
+            
+            
+            height:100%;
+            float:left;
+            width:12.5%;
+            
+        }
+        
+       .column p{
+        margin-right: -20px;
+        display: block;
+        -moz-transform:rotate(-270deg); 
+        -moz-transform-origin: bottom left;
+        -webkit-transform: rotate(-270deg);
+        -webkit-transform-origin: bottom left;
+        -o-transform: rotate(-270deg);
+        -o-transform-origin:  bottom left;
+        filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+        right: -20px;
+        }
+
+        #one{
+            background-color:#47E5BC;  
+        }
+        #two{
+            background-color:#F45B69;
+        }
+
+        #three{
+            background-color:#FDE74C ;
+        }
+        #four{
+            background-color:#5BC0EB;
+        }
+        #five{
+            background-color:#FFB95E;
+        }
+        #six{
+            background-color:#D7FFAB;
+        }
+        #seven{
+            background-color:pink;
+        }
+        #one:hover{
+            background: url(images/main/spencer1.jpg);
+            opacity: .7;
+        }
+        #two:hover{
+            background: url(images/main/spencer2.jpg);
+            opacity: .7;
+        }
+        #three:hover{
+            background: url(images/main/spencer3.jpg);
+            opacity: .7;
+        }
+        #four:hover{
+            background: url(images/main/spencer4.jpg);
+            opacity: .7;
+        }
+        #five:hover{
+            background: url(images/main/spencer5.jpg);
+            opacity: .7;
+        }
+        #six:hover{
+            background: url(images/main/spencer6.jpg);
+            opacity: .7;
+        }
+        #seven:hover{
+            background: url(images/main/spencer7.jpg);
+            opacity: .7;
+        }
+        
+    </style>
+</head>
+<body onLoad="window.scroll(0, 0)">
+    <div id="outercontainer">
+        <!--<div id="title">
+            LOOKBOOK
+        </div>-->
+        <a id="begin" href="#"></a>
+        <div id="look" class="column">
+            <p>lookbook</p>
+        </div>
+        <div id="one" class="column" onclick="location.href='one.html'">
+            <p>one</p>
+        </div>
+        <div id="two" class="column" onclick="location.href='two.html'">
+            <p>two</p>
+        </div>
+        <div id="three" class="column" onclick="location.href='three.html'">
+            <p>three</p>
+        </div>
+        <div id="four" class="column" onclick="location.href='four.html'">
+            <p>four</p>
+        </div>
+        <div id="five" class="column" onclick="location.href='five.html'">
+            <p>five</p>
+        </div>
+        <div id="six" class="column" onclick="location.href='six.html'">
+            <p>six</p>
+        </div>
+        <div id="seven" class="column" onclick="location.href='seven.html'">
+            <p>seven</p>
+        </div>
+        
+    </div>
+    <script src="http://code.jquery.com/jquery-1.12.2.js"></script>   
+</body>
+</html>
